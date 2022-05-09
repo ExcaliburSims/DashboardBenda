@@ -1,0 +1,24 @@
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 50%;
+  background-color: #ee2266;
+  padding: 0.5rem 0.8rem;
+  border-radius: 100px;
+  color: #fff;
+  box-shadow: 0.2rem 0.2rem 0.5rem #ccc;
+}
+
+.input {
+  margin: 0 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #ee2266;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #ccc;
+}
