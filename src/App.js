@@ -1,9 +1,9 @@
-
+import Search from "./components/Search";
 
 function App() {
   return (
     <>
-      <h1>ZILU</h1>
+      <Search />
     </>
   );
 }
