@@ -1,13 +1,14 @@
 import React from 'react'
+import { MdSearch, MdClear } from "react-icons/md";
+import styles from "../styles/search.module.scss";
 
 const Search= () => {
 	return (
  		<>
-			<h1>sims</h1>
-			<div class="search-wrapper">
-      <div class="fa fa-search"></div>
-      <input type="text" class="input" placeholder="Search...." />
-      <div class="fa fa-times close"></div>
+			<div className={styles.search_wrapper}>
+				<MdSearch/>
+      <input type="text" className={styles.input} placeholder="Search...." />
+				<MdClear />
     </div>
 		</>
 	)
