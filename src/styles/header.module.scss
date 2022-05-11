@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'poppins';
+  src: url('../assets/font/Poppins-Medium.ttf') format('ttf');
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	font-family: 'poppins';
+	color: #ffff;
+	height: 50px;
+	border-bottom: #ffff 2px solid;
+	padding: 0 4% 0 4%;
+}
