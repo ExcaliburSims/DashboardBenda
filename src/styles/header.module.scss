@@ -9,9 +9,18 @@
 	font-family: 'poppins';
 	color: #ffff;
 	height: 50px;
-	border-bottom: #ffff 2px solid;
+	border-bottom: #ffff 1px solid;
 	padding: 0 4% 0 4%;
-}
-.logo {
-	font-size: 1.5rem;
+	.logo {
+		font-size: 1.5rem;
+	}
+	.search {
+		display: flex;
+		align-items: center;
+  	justify-content: space-between;
+		width: 40%;
+		.icon {
+			font-size: 1.5rem;
+		}
+	}
 }
