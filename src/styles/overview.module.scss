@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'poppins';
+  src: url('../assets/font/Poppins-Medium.ttf') format('ttf');
+}
+.container {
+  display: flex;
+	flex-direction: column;
+	.sub_container {
+		display: flex;
+	}
+}

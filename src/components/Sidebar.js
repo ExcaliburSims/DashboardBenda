@@ -10,31 +10,31 @@ function Sidebar() {
   return (
     <div className={styles.container}>
       <ul>
-        <NavLink to="/">
+        <NavLink to="/" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
           <MdOutlineVisibility className={styles.icon} />
           <li>Overview</li>
         </NavLink>
-        <NavLink to="/Users">
+        <NavLink to="/Users" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
           <MdPerson className={styles.icon} />
           <li>Users</li>
         </NavLink>
-        <NavLink to="/Agents">
+        <NavLink to="/Agents" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
           <MdOutlinePeopleAlt className={styles.icon} />
           <li>Agents</li>
         </NavLink>
-        <NavLink to="/Garages">
+        <NavLink to="/Garages" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
           <MdBuild className={styles.icon} />
           <li>Garages</li>
         </NavLink>
-        <NavLink to="/Alertes">
+        <NavLink to="/Alertes" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
           <MdNotificationImportant className={styles.icon} />
           <li>Alertes</li>
         </NavLink>
-        <NavLink to="/Cartes">
+        <NavLink to="/Cartes" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
           <MdGpsFixed className={styles.icon} />
           <li>Cartes</li>
         </NavLink>
-        <NavLink to="Stats">
+        <NavLink to="Stats" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
           <MdLeaderboard className={styles.icon} />
           <li>Stats</li>
         </NavLink>
