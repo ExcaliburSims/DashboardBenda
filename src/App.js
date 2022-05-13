@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header';
-import Sidebar from './components/Sidebar';
+import MainContent from './components/MainContent';
 
 function App() {
   return (
     <div className="container">
-      <div>
-        <Header />
-        <Sidebar />
-      </div>
+      <MainContent />
     </div>
   );
 }
