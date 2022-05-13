@@ -1,8 +1,14 @@
 import React from 'react';
+import Sidebar from '../components/Sidebar';
+import Header from '../components/header';
 
 function Users() {
   return (
-    <div>Users</div>
+    <div>
+      <Header />
+      <Sidebar />
+      <h4>Users</h4>
+    </div>
   );
 }
 
