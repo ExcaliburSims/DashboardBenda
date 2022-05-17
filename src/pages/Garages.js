@@ -1,13 +1,16 @@
 import React from 'react';
 import Sidebar from '../components/Sidebar';
 import Header from '../components/header';
+import styles from '../styles/garages.module.scss';
 
 function Garages() {
   return (
-    <div>
+    <div className={styles.container}>
       <Header />
-      <Sidebar />
-      <h3>Garages</h3>
+      <div className={styles.sub_container}>
+        <Sidebar />
+        <h3>Garages</h3>
+      </div>
     </div>
   );
 }
