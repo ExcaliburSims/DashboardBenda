@@ -1,13 +1,16 @@
 import React from 'react';
 import Sidebar from '../components/Sidebar';
 import Header from '../components/header';
+import styles from '../styles/users.module.scss';
 
 function Users() {
   return (
-    <div>
+    <div className={styles.container}>
       <Header />
-      <Sidebar />
-      <h4>Users</h4>
+      <div className={styles.sub_container}>
+        <Sidebar />
+        <h3>Users</h3>
+      </div>
     </div>
   );
 }
