@@ -14,7 +14,7 @@ function Sidebar() {
           <MdOutlineVisibility className={styles.icon} />
           <li>Overview</li>
         </NavLink>
-        <NavLink to="/Users" className={(nav) => (nav.isActive ? 'nav-active' : '')}>
+        <NavLink to="/Users" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
           <MdPerson className={styles.icon} />
           <li>Users</li>
         </NavLink>

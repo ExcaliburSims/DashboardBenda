@@ -35,12 +35,16 @@
       &:hover {
         background: black;
       }
-			.nav-active {
+			&.active {
+  			color: #fff;
+  			background: #7600dc;
+			}
+/* 			.nav-active {
 				background-color: #dde454;
 				&:hover {
 					background: #060d2c;
-			}
-		}
+			} 
+		}*/
 			li {
 				margin-left: 10%;
 				height: 100%;
