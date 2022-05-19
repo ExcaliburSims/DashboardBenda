@@ -7,9 +7,15 @@
 	flex-direction: column;
 	.sub_container {
 		display: flex;
-		h3 {
-			color: #ffff;
+		.box_content {
+			//background-color: red;
+			width: 100%;
+			margin: 5% 5% 0 5%;
+			border: #ffff 2px solid;
+			border-radius: 10px;
+			h3 {
+				color: #ffff;
+			}
 		}
-			
 	}
 }

@@ -9,7 +9,9 @@ function Overview() {
       <Header />
       <div className={styles.sub_container}>
         <Sidebar />
-        <h3>overview</h3>
+        <div className={styles.box_content}>
+          <h3>Overview</h3>
+        </div>
       </div>
     </div>
   );
